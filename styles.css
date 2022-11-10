@@ -1,0 +1,13 @@
+.gameBoard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 300px;
+    height: 300px;
+}
+
+.gameboard,
+.gameBoard>div {
+    border-color: black;
+    border-style: solid;
+}
